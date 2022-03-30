@@ -1,0 +1,335 @@
+/*==== COMMON CSS START ====*/
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #8e8e8e;
+}
+/*==== COMMON CSS END ====*/
+
+/*==== HEADER CSS START ====*/
+header{
+	padding: 25px 0;
+	background: ;
+}
+.logo{}
+.logo h1{
+	 font-size: 30px;
+	 color: #333333;
+	 font-family: 'Lato', sans-serif;
+	 font-weight: 400;
+}
+.menu ul li a{
+	font-family: 'Lato', sans-serif;
+	padding-right: 25px !important;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #8e8e8e !important;
+	font-weight: 400;
+}
+.menu ul li a:hover{
+	color: #333333 !important;
+}
+.search{}
+.search_dd{}
+.search_icon{
+	color: #8e8e8e;
+}
+.search_dd::after {
+    display: none;
+}
+.search_dd:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.search_ddm {   
+    min-width: 400px;
+    padding: 15px 15px;
+    font-size: 1rem;
+    color: #212529;
+    border-radius: 0;
+}
+.search_ddm[data-bs-popper] {
+    top: 80px;
+    left: -360px;
+    margin-top: 0;
+}
+.search_input{
+	width: 100%;
+    height: 50px;
+    border: 1px solid #8e8e8e;
+    border-radius: 0;
+}
+.search_input:focus{
+	box-shadow: none;
+}
+.search_button{
+	width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #8e8e8e;
+    border-radius: 0;
+}
+.custom_nav{}
+/*==== HEADER CSS END ====*/
+
+/*==== SLIDER CSS START ====*/
+.slider{
+	padding-top: 200px;
+	background-image: url(../images/slider.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.c_slider-text{
+	margin-bottom: 200px;
+}
+.c_slider-text h1 {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.c_slider-text p{
+	margin: 30px 0;
+	color: #ffffff;
+}
+.c_slider-text button{
+	width: 200px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border: none;
+    color: #333333;
+    font-weight: 400;
+}
+.c_slider-text button i{
+	margin-left: 15px;
+	font-size: 16px;
+	color: #333333;
+}
+.slider_button{
+	border: 1px solid #8e8e8e;
+    background: transparent;
+    color: #8e8e8e;
+    transition: o.3s;
+}
+.slider_button:hover{
+	color: #333333;
+}
+.button_inner{
+	margin: 0 10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	transition: o.3s;
+}
+.button_inner:hover{
+	color: #333333;
+}
+/*==== SLIDER CSS END ====*/
+
+/*==== FEATURE CSS START ====*/
+.feature{
+	padding-bottom: 100px;
+}
+.common-title{
+
+}
+.ch-line{
+	width: 3px;
+    height: 50px;
+    background: #333333;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.common_h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+	text-transform: uppercase;
+}
+.feature-text{
+	margin-top: 40px;
+	margin-bottom: 50px; 
+	text-align: center;
+}
+.feature-service {
+	margin-top: 60px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    padding: 0 15px 30px;
+}
+.f_icon{
+	width: 70px;
+    margin: -22px auto 25px;
+    background: white;
+}
+.f_icon i{
+	font-size: 60px;
+    color: #8e8e8e;
+}
+.feature-service h2{
+	margin: 0;
+	font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+.feature-service hr{
+	width: 50px;
+    margin: 15px auto;
+    color: #8e8e8e;
+}
+.feature-service p{
+	margin-bottom: 25px;
+}
+.feature-service a{
+	text-decoration: none;
+    text-transform: uppercase;
+    color: #8e8e8e;
+    font-weight: 500;
+}
+.feature-service a i{
+	margin-left: 15px;
+}
+/*==== FEATURE CSS END ====*/
+
+
+/*==== ABOUT CSS START ====*/
+.about{
+	margin-bottom: 120px;
+}
+.about-img{}
+.about-img img{
+	width: 100%;
+}
+.about-content{}
+.about-content h1 {
+	margin: 0;
+    font-size: 30px;
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.about-content p{
+	margin: 22px 0;
+}
+
+.lm-button button{
+	width: 200px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #333333;
+    background: transparent;
+    color: #333333;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.lm-button button i{
+	margin-left: 15px;
+	font-size: 16px;
+	color: #333333;
+}
+
+/*==== ABOUT CSS END ====*/
+
+/*==== SERVICE CSS START ====*/
+.service{
+	margin-bottom: 90px;
+}
+.service-item{
+	margin-top: 60px;
+	
+}
+.service_icon{
+	text-align: center;
+}
+.service_icon i{
+	font-size: 50px;
+    margin-top: -10px;
+}
+.service_h2 h2{
+	text-transform: uppercase;
+	font-size: 18px;
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+.service_text p{
+	margin: 15px 0 20px;
+	font-size: 15px;
+}
+.border_bottom{
+	border-bottom: 1px solid #cccccc;
+}
+/*==== SERVICE CSS END ====*/
+
+/*==== CONTACT CSS START ====*/
+.contact-border{
+	border: 1px solid red;
+}
+.contact_h1{
+	color: #333333;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+/*==== CONTACT CSS END ====*/
+
+/*==== FOOTER CSS START ====*/
+footer{
+	background-image: url(../images/footer-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.footer_content p{
+	margin: 30px 0 35px;
+	color: #ffffff;
+}
+.social-icon{
+	margin-bottom: 90px;
+}
+.social-icon ul{}
+.social-icon ul li{}
+.social-icon ul li i{
+	font-size: 26px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    transition: 0.3s; 
+}
+.social-icon ul li i:hover{
+	background: #ffffff;
+	color: #333333;
+	cursor: pointer;
+}
+.b-border{
+	border-bottom: 1px solid #cccccc;
+}
+.footer-b{
+	padding: 40px 0;
+}
+.footer-left p{
+	margin: 0;
+	color: #ffffff;
+}
+.footer-menu{}
+.footer-menu ul{
+	float: right;
+}
+.footer-menu ul li{
+	margin-right: 30px !important;
+}
+.footer-menu ul li a{
+	text-decoration: none;
+    color: #ffffff;
+}
+/*==== FOOTER CSS END ====*/
